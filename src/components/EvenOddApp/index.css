@@ -1,0 +1,46 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+  background-size: cover;
+  height: 100vh;
+  border-radius: 10px;
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(#ff6e7f, #bfe9ff);
+  height: 60%;
+  width: 50%;
+  border-radius: 20px;
+}
+
+@media (screen) and (max-width: 576px) {
+  .card-container {
+    width: 80%;
+  }
+}
+.heading {
+  font-family: Roboto;
+  font-size: 40px;
+}
+
+.para {
+  font-family: Roboto;
+  font-size: 25px;
+}
+.button-container {
+  text-align: center;
+}
+.button {
+  background-color: white;
+  color: black;
+  height: 30px;
+  width: 100px;
+  cursor: pointer;
+}
